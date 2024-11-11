@@ -7,49 +7,23 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Created the website you're currently at",
-    image: "/images/Projects/Website.jpg",
+    title: "Rainbow Rank Currently",
+    description: "For sure not lying",
+    image: "Rainbow-Six-Logo.jpg",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/ButterM-40/personal-website",
+    gitUrl: "https://www.reddit.com/r/Rainbow6/comments/15isg6b/ranks_above_champion/#lightbox",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "Communicative NPC Game",
-    description: "Using LLM we were able to create an interative Boss that can communicate with the Player via voice",
-    image: "/images/Projects/DungeonGPT.jpg",
+    title: "Click here for My actual Project",
+    description: "No description",
+    image: "images.png",
     tag: ["All", "Game"],
-    gitUrl: "https://github.com/ButterM-40/Dungeon-Game-3D",
+    gitUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     previewUrl: "https://www.youtube.com/watch?v=W_adTM71V2w&ab_channel=RamiroSantos",
   },
-  {
-    id: 3,
-    title: "Project-M347",
-    description: "Horror POV where you play as a scientist trying to escpae the unknown cave.",
-    image: "/images/Projects/Project-M347.png",
-    tag: ["All", "Game"],
-    gitUrl: "https://github.com/ButterM-40/Project-M347",
-    previewUrl: "/",
-  },
-  {
-    id: 5,
-    title: "Python Langchain",
-    description: "Using OpenAI, constructed a NPC with Story",
-    image: "/images/about-image.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/ButterM-40/Langchain-Audio-Conversation",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Spirit of the Wild",
-    description: "Puzzle Game where the player transform into a totem to use as platforms",
-    image: "/images/Projects/SpiritOfTheWild.png",
-    tag: ["All", "Game"],
-    gitUrl: "https://github.com/ButterM-40/BlitzWaveStudioGameJam70",
-    previewUrl: "https://blitzwavesstudios.itch.io/spirits-of-the-wild",
-  },
+  
 ];
 
 const ProjectsSection = () => {
